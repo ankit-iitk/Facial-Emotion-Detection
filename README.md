@@ -70,12 +70,6 @@ The dataset is highly imbalanced (e.g., 'Happy' has many samples, while 'Disgust
     ```
 3.  **Run the Notebook:**
     Execute the cells in `Facial_Emotion_Detection.ipynb` to train the model.
-4.  **Inference:**
-    Use the `predict_emotion` function to test on new images:
-    ```python
-    prediction = predict_emotion('path/to/image.jpg')
-    print(prediction)
-    ```
 
 ## 🔮 Future Improvements
 * **Transfer Learning:** Implement ResNet50 or MobileNet for potentially higher accuracy.
